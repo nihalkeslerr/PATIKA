@@ -1,0 +1,21 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1-[16,21,11] ve [8,12,22] olmak üzere ikiye bölünür.
+ 2-[16] [21,11] olacak şekilde ayrılır.
+3-[21,11] parçası yine ikiye bölünür ve [21] [11] olacak şekilde ayrılır.
+4-[21] ve [11] parçaları birleştirilir: [11,21]
+5-[16] ve [11,21] parçaları birleştirilir: [11,16,21]
+6-[8,12,22] parçası yine ikiye bölünür ve [8] [12,22] olacak şekilde 
+ayrılır.
+7-[12,22] parçası yine ikiye bölünür ve [12] [22] olacak şekilde ayrılır.
+8-[12] ve [22] parçaları birleştirilir: [12,22]
+9-[8] ve [12,22] parçaları birleştirilir: [8,12,22]
+10-[11,16,21] ve [8,12,22] parçaları birleştirilir.
+11-İki parça da artan sırada olduğundan, önce 11 ile 8 karşılaştırılır ve 
+[8,11] olacak şekilde birleştirilir. Daha sonra diğer elemanlar sırayla 
+eklenerek dizinin tamamı birleştirilir: [8,11,12,16,21,22]
+
+Dizinin Merge Sort'a göre sıralanmış hali [8,11,12,16,21,22] olacaktır.
+
+Merge sort, her seferinde n elemanlı diziyi 2'ye bölerek çalıştığı için, 
+O(n log n) zaman karmaşıklığına sahiptir.
