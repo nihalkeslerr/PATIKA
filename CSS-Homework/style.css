@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+    margin: 26px 12px;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: brown;
+}
+h1 {
+    color: #650000;
+    margin: 26px;
+}
+h2 {
+    text-transform: uppercase;
+    color: #5a5a5a;
+}
+p {
+    margin: 18px;
+}
+h3 {
+    color: #383838;
+    text-decoration: underline;
+    margin: 21px;
+}
+ul li {
+    list-style-position: inside;
+}
